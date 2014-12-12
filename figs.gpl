@@ -1,0 +1,8 @@
+set nokey
+set term png
+
+set output "stable.png"
+p "res-stable" u 1:2 w l
+
+set o "unstable.png"
+p "res-unstable" u 1:2 w l
